@@ -1,0 +1,41 @@
+GET http://localhost:3001/students HTTP/1.1 
+Content-Type: application/json
+
+###
+
+GET http://localhost:3001/students/2ad4 HTTP/1.1 
+Content-Type: application/json
+
+###
+
+POST http://localhost:3001/students HTTP/1.1 
+Content-Type: application/json
+
+{
+    "firstName": "Ann",
+    "lastName": "Wang",
+    "level": "Senior",
+    "gpa": 3.9,
+    "major":"Math"
+}
+
+###
+
+PUT http://localhost:3001/students/2ad4 HTTP/1.1 
+Content-Type: application/json
+
+{
+    "firstName": "Jordan Anthony",
+    "lastName": "Poole",
+    "level": "Junior",
+    "gpa": 3.9,
+    "major":"Music"
+}
+
+###
+
+DELETE  http://localhost:3001/students/0d2b HTTP/1.1 
+Content-Type: application/json
+
+
+
