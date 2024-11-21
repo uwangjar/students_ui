@@ -1,19 +1,19 @@
-npm start to run app
+Run app -npm start
 
 
-npm run server to run json server
+Run json server -npm run server
 
 
 Create docker image
 
 
-docker build -t frontend-student:latest .
+- docker build -t frontend-student:latest .
 
 
 Run UI service as a container
 
 
-docker run -d -p 3000:3000 <image id>
+- docker run -d -p 3000:3000 <image id>
 
 ![students_table](https://github.com/user-attachments/assets/60c3f48a-e961-4041-ab0c-0ef3a4fca3d7)
 
