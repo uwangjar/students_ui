@@ -5,7 +5,7 @@ Run app
 
 Run json server 
 
-- npm run server
+- npm run server (port 3001)
 
 
 Create docker image
