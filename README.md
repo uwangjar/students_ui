@@ -14,7 +14,7 @@ Create docker image
 - docker build -t frontend-student:latest .
 
 
-Run UI service as a container
+Run UI service as a container, service will be available at port 3000
 
 
 - docker run -d -p 3000:3000 <image id>
