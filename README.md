@@ -1,7 +1,11 @@
-Run app -npm start
+Run app 
+
+- npm start
 
 
-Run json server -npm run server
+Run json server 
+
+- npm run server
 
 
 Create docker image
